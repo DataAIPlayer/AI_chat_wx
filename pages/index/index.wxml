@@ -1,0 +1,9 @@
+<!--index.wxml-->
+<view class="container">
+  <scroll-view scroll-y="true" style="height: {{scrollHeight}}rpx; background: #fff;" scroll-into-view="{{toView}}">
+  </scroll-view>
+  <view class="input_box" style="height: 100rpx; background: #eeeeee;" >
+    <input 	cursor-spacing="5" style="height:60rpx; background: white; width: 80%; margin-left: 2%; line-height: 60rpx; padding-left: 10rpx;" />
+    <button class="send_button" type="primary" size="mini">发送</button>
+  </view>
+</view>
